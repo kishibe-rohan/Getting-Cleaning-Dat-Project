@@ -15,9 +15,21 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 Attribute Information
 For each record in the dataset it is provided:
 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope.
-- A 561-feature vector with time and frequency domain variables.
-- Its activity label.
-- An identifier of the subject who carried out the experiment.
+#Field names              Description
+feature              contains the data based on the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+alabel               contains the activity name or labels and corresponding numbers
+s_test               contains different subjects performed in the test set
+x_test               contains data of various tests based on different functions 
+y_test               contains labels of different activities in the test set
+s_train              contains different subjects performed in the subject set
+x_train              contains train data based on different functions
+y_train              contains labels of different activities in the train set 
 
+#Merges the training and the test sets to create one data set
+x_data               a combined data frame of xtrain and xtest
+y_data               a combined data frame of ytrain and ytest
+s_data               a combined data frame of subjecttrain and subjecttest
+reqData              a combined data frame of X,Y and Dataset
+
+#Extracts only the measurements on the mean and standard deviation for each measurement
+targetCols          a data frame containing subject,number,mean and std cols
