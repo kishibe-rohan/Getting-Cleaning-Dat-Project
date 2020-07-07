@@ -1,6 +1,7 @@
 # Getting-Cleaning-Dat-Project
 
-This is the course project for the Getting and Cleaning Data Coursera course from JHU
+This is the course project for the Getting and Cleaning Data Coursera course from JHU.
+
 The included R script, run_analysis.R, conducts the following:
 
 1. Download the dataset from web if it does not already exist in the working directory.
