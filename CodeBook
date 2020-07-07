@@ -17,7 +17,7 @@ For each record in the dataset it is provided:
 
 #Field names              Description
 feature              contains the data based on the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
-alabel               contains the activity name or labels and corresponding numbers
+a_label              contains the activity name or labels and corresponding numbers
 s_test               contains different subjects performed in the test set
 x_test               contains data of various tests based on different functions 
 y_test               contains labels of different activities in the test set
@@ -33,3 +33,6 @@ reqData              a combined data frame of X,Y and Dataset
 
 #Extracts only the measurements on the mean and standard deviation for each measurement
 targetCols          a data frame containing subject,number,mean and std cols
+
+
+
