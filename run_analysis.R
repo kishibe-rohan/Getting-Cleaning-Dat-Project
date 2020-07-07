@@ -9,7 +9,7 @@
 
 library(reshape2)    #load lib required to melt and cast 
 
-#1. get dataset from wb and store in working drectory
+#1. get dataset from web and store in working directory
 
 rawDataDir <- "./rawData"
 rawDataUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
